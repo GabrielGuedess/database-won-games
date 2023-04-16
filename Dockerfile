@@ -1,4 +1,4 @@
-FROM postgres:latest
+FROM postgres:12-alpine
 
 ENV POSTGRES_USER=wongames
 ENV POSTGRES_PASSWORD=wongames123
